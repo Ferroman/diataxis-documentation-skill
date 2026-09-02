@@ -1,0 +1,25 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "diataxis-documentation-skill",
+  "description": "A Claude Code skill for writing and restructuring technical documentation",
+  "owner": {
+    "name": "Bohdan Frankovskyi"
+  },
+  "plugins": [
+    {
+      "name": "writing-documentation",
+      "source": "./",
+      "description": "Split a mixed-purpose document into a Di\u00e1taxis set, write it in a disciplined house style, and prove no fact was lost.",
+      "version": "0.1.0",
+      "homepage": "https://github.com/Ferroman/diataxis-documentation-skill",
+      "repository": "https://github.com/Ferroman/diataxis-documentation-skill",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "documentation",
+        "diataxis",
+        "technical-writing"
+      ]
+    }
+  ]
+}
