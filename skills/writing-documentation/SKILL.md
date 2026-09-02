@@ -30,6 +30,10 @@ before writing, and read its section.
 The model is [Diátaxis](https://diataxis.fr/): tutorial, how-to, reference and
 explanation are four different documents, not four sections of one.
 
+The rest of the approach — one goal per document, be explicit, do not assume,
+cover the gotchas, and duplicate freely between documents — comes from
+[Technical documentation: my personal framework for a better guide](https://medium.com/@bfrankovskyi/technical-documentation-my-personal-framework-for-a-better-guide-3d2b93909dfd).
+
 ## When to use
 
 - Any request to document, restructure, split or rewrite something.

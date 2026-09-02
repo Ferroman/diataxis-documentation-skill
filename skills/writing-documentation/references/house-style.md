@@ -1,5 +1,8 @@
 # House style
 
+The principles behind these rules are set out in the author's article,
+[Technical documentation: my personal framework for a better guide](https://medium.com/@bfrankovskyi/technical-documentation-my-personal-framework-for-a-better-guide-3d2b93909dfd).
+
 ## Three defaults worth keeping
 
 These are opinionated. They are defaults, not laws — if the project states
@@ -55,8 +58,14 @@ beat one that satisfies a rule.
 
 ## Writing
 
-- Say what is true, including when the source was wrong. "An earlier version set
-  two approvals here. That was wrong, because …" beats a silent correction.
+- **Do not narrate the document's own edit history.** A document states what is
+  true now. "An earlier version said X, which was wrong" is a changelog entry,
+  and it belongs in the commit message, a decision log or the conversation —
+  never in the prose a reader sees. Correct it and move on.
+- Keep the reasoning, drop the framing. When a decision is surprising, give its
+  rationale in the present tense: "One approval, because the owning team is
+  three people" carries every fact that "revised down from two, because …"
+  carried, without dating the document to the moment it changed.
 - Prefer the number to the adjective. "Three people" beats "a small team".
 - Put the reader's objection in a heading, not a footnote.
 - Every claim that came from a measurement carries the measurement.

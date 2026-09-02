@@ -9,7 +9,8 @@ maintain it, because any edit serves one purpose and damages another.
 
 This skill handles the job that follows: **splitting one document by purpose,
 without losing a fact and without breaking a single inbound link.** The model is
-[Diátaxis](https://diataxis.fr/).
+[Diátaxis](https://diataxis.fr/), applied through the framework described in
+[Technical documentation: my personal framework for a better guide](https://medium.com/@bfrankovskyi/technical-documentation-my-personal-framework-for-a-better-guide-3d2b93909dfd).
 
 ## What it does
 
@@ -103,6 +104,13 @@ Version 0.1.0. The scripts are tested (see `TESTING.md`). The guidance comes fro
 one real documentation project rather than from a scored evaluation — the rubric
 a proper test would use is in `TESTING.md`, and contributions that run it are
 welcome.
+
+## Further reading
+
+- [Technical documentation: my personal framework for a better guide](https://medium.com/@bfrankovskyi/technical-documentation-my-personal-framework-for-a-better-guide-3d2b93909dfd)
+  — the principles this skill encodes.
+- [Diátaxis](https://diataxis.fr/) — the four-mode model.
+- [ASD-STE100](https://www.asd-ste100.org/) — Simplified Technical English.
 
 ## Licence
 
