@@ -9,7 +9,7 @@
     {
       "name": "writing-documentation",
       "source": "./",
-      "description": "Split a mixed-purpose document into a Di\u00e1taxis set, write it in a disciplined house style, and prove no fact was lost.",
+      "description": "Split a mixed-purpose document into a Diátaxis set, write it in a disciplined house style, and prove no fact was lost.",
       "version": "0.1.0",
       "homepage": "https://github.com/Ferroman/diataxis-documentation-skill",
       "repository": "https://github.com/Ferroman/diataxis-documentation-skill",

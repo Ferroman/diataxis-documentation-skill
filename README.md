@@ -98,9 +98,25 @@ skills/writing-documentation/
 └── scripts/                      linkcheck.py, factdiff.py, unwrap.py
 ```
 
+## Releases
+
+[release-please](https://github.com/googleapis/release-please) makes every
+release. Commits on `main` follow
+[Conventional Commits](https://www.conventionalcommits.org/): `fix:` raises
+the patch version, `feat:` the minor version, and `feat!:` or a
+`BREAKING CHANGE:` footer the major version. Other types (`docs:`, `ci:`,
+`test:`, `chore:`) make no release.
+
+After each push to `main`, release-please opens or updates a release pull
+request. Merging it tags `vX.Y.Z`, publishes a GitHub release, updates
+`CHANGELOG.md` and sets `version` in both `.claude-plugin` manifests. Do not
+edit those versions by hand.
+
 ## Status
 
-Version 0.1.0. The scripts are tested (see `TESTING.md`). The guidance comes from
+The current version is on the
+[Releases](https://github.com/Ferroman/diataxis-documentation-skill/releases)
+page. The scripts are tested (see `TESTING.md`). The guidance comes from
 one real documentation project rather than from a scored evaluation — the rubric
 a proper test would use is in `TESTING.md`, and contributions that run it are
 welcome.
