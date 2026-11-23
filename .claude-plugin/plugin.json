@@ -1,6 +1,6 @@
 {
   "name": "writing-documentation",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Split a mixed-purpose document into a Diátaxis set, write it in a disciplined house style, and prove no fact was lost. Works on wiki notes, repository docs and design docs.",
   "author": {
     "name": "Bohdan Frankovskyi"
